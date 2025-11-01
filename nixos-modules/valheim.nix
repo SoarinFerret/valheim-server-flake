@@ -100,7 +100,7 @@ in {
         If you use this, all players not on the list will be unable to join.
       '';
     };
-    
+
     bannedList = lib.mkOption {
       type = with lib.types; listOf str;
       default = [];
@@ -149,7 +149,7 @@ in {
   };
 
   config = lib.mkIf cfg.enable {
-    nixpkgs.overlays = [self.overlays.default steam-fetcher.overlays.default];
+    nixpkgs.overlays = [self.overlays.default steam-fetcher.overlay];
 
     users = {
       users.valheim = {
