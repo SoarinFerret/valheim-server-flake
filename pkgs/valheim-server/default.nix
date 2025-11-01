@@ -10,7 +10,7 @@ stdenv.mkDerivation (finalAttrs: {
     inherit (finalAttrs) name;
     appId = "896660";
     depotId = "896661";
-    manifestId = "3582760691865144507"; # https://steamdb.info/depot/896661/manifests/
+    manifestId = "3580572581606309980"; # https://steamdb.info/depot/896661/manifests/
     hash = "sha256-8UdoLzKiu8CEztqwTHGP5M3RdrrVUTmAwN6Cqt9R+w1=";
   };
 
