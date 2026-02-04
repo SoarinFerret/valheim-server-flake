@@ -1,6 +1,12 @@
 # Valheim Server Flake
 A Nix flake for the Valheim dedicated server, providing both an overlay and a NixOS module.
 
+## Build
+
+```bash
+NIXPKGS_ALLOW_UNFREE=1 nix build .#valheim-server --impure
+```
+
 ## Usage
 (Your NixOS system configuration must already be a flake.)
 
