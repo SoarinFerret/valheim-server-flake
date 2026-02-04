@@ -10,8 +10,8 @@ stdenv.mkDerivation (finalAttrs: {
     inherit (finalAttrs) name;
     appId = "896660";
     depotId = "896661";
-    manifestId = "3582760691865144507"; # https://steamdb.info/depot/896661/manifests/
-    hash = "sha256-sdaNdgEb3m2ZIN0CI8JdjMzul/iNZxczIuNwIhZ2Kt0=";
+    manifestId = "2638249364938489857"; # https://steamdb.info/depot/896661/manifests/
+    hash = "sha256-8LJcjROSNa081MNt+BzVlDEXcJv1TIeJ+BUzQLEpsmg=";
   };
 
   # Skip phases that don't apply to prebuilt binaries.
